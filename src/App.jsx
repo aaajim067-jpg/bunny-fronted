@@ -6,7 +6,7 @@ function App() {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // ⚠️ 请把这里的网址换成您 Render 后端的真实网址！
+  // https://nianian-backend.onrender.com
   const BACKEND_URL = 'https://nianian-backend.onrender.com';
 
   const sendMessage = async () => {
